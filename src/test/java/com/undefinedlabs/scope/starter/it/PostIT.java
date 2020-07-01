@@ -52,7 +52,7 @@ public class PostIT {
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
     }
 
-    @Test
+   /* @Test
     public void create_post() {
         //Given
         final MultiValueMap<String, String> newPostAttributes= new LinkedMultiValueMap<>();
@@ -71,7 +71,7 @@ public class PostIT {
 
         //Then
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.FOUND);
-    }
+    } */
 
     @Test
     public void edit_post() {
