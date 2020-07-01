@@ -77,7 +77,7 @@ public class PostIT {
     public void edit_post() {
         final MultiValueMap<String, String> newPostAttributes= new LinkedMultiValueMap<>();
         newPostAttributes.add("title", "sampleTitle");
-        newPostAttributes.add("body", "sampleBody");
+        //newPostAttributes.add("body", "sampleBody");
         newPostAttributes.add("user", "1");
         newPostAttributes.add("id", "1");
 
