@@ -9,6 +9,8 @@ public interface UserService {
     Optional<User> findByUsername(String username);
 
     Optional<User> findByEmail(String email);
+    
+    Optional<User> findByEmail(String phonenumber);
 
     User save(User user);
 }
