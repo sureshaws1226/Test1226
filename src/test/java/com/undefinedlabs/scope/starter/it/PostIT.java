@@ -59,7 +59,7 @@ public class PostIT {
         newPostAttributes.add("title", "sampleTitle");
         newPostAttributes.add("body", "sampleBody");
         newPostAttributes.add("user", "1");
-        newPostAttributes.add("id", "");
+        newPostAttributes.add("id", "1234");
 
         final HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
